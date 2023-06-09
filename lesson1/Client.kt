@@ -11,7 +11,7 @@ fun main() {
     }
     createRoot(container).render(welcome)
 }
-//The Lines Below Were Ran In Kotlon REPL
+//The Lines Below Were Ran In Kotlin REPL
 fun printHello () {
     println ("Hello World")
 }
