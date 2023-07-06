@@ -12,8 +12,15 @@ fun main() {
     createRoot(container).render(welcome)
 }
 //The Lines Below Were Ran In Kotlin REPL
-fun printHello () {
+fun printHello() {
     println ("Hello World")
 }
-
 printHello()
+
+fun addfish(){
+    val fish1 = 1
+    val fish2 = 1
+    val fishpool = fish1 + fish2
+    print(fishpool)
+}
+addfish()
