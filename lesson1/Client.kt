@@ -13,14 +13,17 @@ fun main() {
 }
 //The Lines Below Were Ran In Kotlin REPL
 fun printHello() {
-    println ("Hello World")
+    println ("Hello World, Number of Fish: ")
 }
 printHello()
 
 fun addfish(){
-    val fish1 = 1
-    val fish2 = 1
+    val fish1 = 3
+    val fish2 = 3
     val fishpool = fish1 + fish2
     print(fishpool)
 }
 addfish()
+
+//Output On Kotlin REPL
+//Hello World, Number of Fish: 6
