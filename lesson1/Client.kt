@@ -12,18 +12,31 @@ fun main() {
     createRoot(container).render(welcome)
 }
 //The Lines Below Were Ran In Kotlin REPL
-fun printHello() {
+fun printHello()
+{
     println ("Hello World, Number of Fish: ")
 }
 printHello()
 
-fun addfish(){
-    val fish1 : int = 3
-    val fish2 : int = 3
-    val fishpool : int = fish1 + fish2
+fun addfish()
+{
+    val fish1: Int = 3
+    val fish2: Int = 3
+    val fishpool: Int = fish1 + fish2
     print(fishpool)
 }
 addfish()
-
 //Output On Kotlin REPL
 //Hello World, Number of Fish: 6
+
+
+
+
+//Trying from previous lesson
+fun sumoftwonumbers(num1: Int, num2: Int)
+{
+    val sum = num1 + num2
+    print(sum)
+}
+sumoftwonumbers(2,3)
+
