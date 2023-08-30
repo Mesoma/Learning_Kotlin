@@ -18,9 +18,9 @@ fun printHello() {
 printHello()
 
 fun addfish(){
-    val fish1 = 3
-    val fish2 = 3
-    val fishpool = fish1 + fish2
+    val fish1 : int = 3
+    val fish2 : int = 3
+    val fishpool : int = fish1 + fish2
     print(fishpool)
 }
 addfish()
